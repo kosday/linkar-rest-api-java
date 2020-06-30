@@ -17,7 +17,7 @@ public class Test {
 			conn.setDoOutput(true);
 			conn.setRequestMethod("POST");
 			
-			//JSON
+			//JSON 
 			//conn.setRequestProperty("Content-Type", "application/json");
 			//String input = "{ \"APIKey\" : \"my_apikey\", \"Data\" : { \"CALCULATED\" : \"False\", \"CONVERSION\" : \"False\", \"FORMAT_SPEC\" : \"False\", \"ORIGINAL_RECORDS\" : \"False\" ,\"CUSTOM_VARS\" : \"\" ,\"OUTPUT_FORMAT\" : \"JSON\" ,\"FILE_NAME\" : \"LK.CUSTOMERS\" ,\"RECORDS\" : [ { \"LKITEMID\" : \"2\" }, { \"LKITEMID\" : \"3\" } ] ,\"DICT_CLAUSE\" : \"\"} }";
 			
